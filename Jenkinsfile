@@ -17,11 +17,9 @@ pipeline {
 			stage('Integration Test') {
 				steps {
 							echo "Integration Test"
-
 				}
 			}
 
-		
 		}
 		post {
 			always {
