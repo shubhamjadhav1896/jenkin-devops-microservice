@@ -22,7 +22,8 @@ pipeline {
 			}
 
 		
-		}post {
+		}
+		post {
 			always {
 				echo 'I run always'
 			}
